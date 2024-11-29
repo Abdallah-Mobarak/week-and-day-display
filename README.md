@@ -28,12 +28,15 @@ A simple web project that displays the current week number and the current day n
 - **JavaScript**: Calculates and displays the week and day numbers dynamically.
 
 ---
+## Preview
+![](02.jpg)
+## Live Demo
+You can check out the live demo of the project [here](https://abdallah-mobarak.github.io/week-and-day-display/).
 
 ## Installation
 1. Clone or download the repository:
    ```bash
    git clone https://github.com/Abdallah-Mobarak/week-and-day-display.
-git
 
 2. Open the index.html file in your browser to view the project. 
 
@@ -42,7 +45,6 @@ git
 - Find the current week number for weekly planning
 ## Requirements
 - A modern web browser with JavaScript enabled.
-## Preview
 
 ## Future Enhancements
 - Improve user experience with additional features.
