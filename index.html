@@ -32,6 +32,8 @@
         .container {
             display: flex;
             gap: 50px;
+            justify-content: center;
+            flex-wrap: wrap; /* يسمح بانتقال المربعات للأسطر الجديدة في الشاشات الصغيرة */
         }
 
         /* إعدادات المربعات */
@@ -52,6 +54,7 @@
             text-align: center;
             padding: 20px;
             overflow: hidden;
+            margin-bottom: 30px; /* إضافة مسافة بين المربعات */
         }
 
         /* تأثير عند الوقوف على المربع */
@@ -96,11 +99,47 @@
         }
 
         /* تحسين استجابة العرض على الشاشات الصغيرة */
-        @media (max-width: 768px) {
+        @media (max-width: 950px) {
+            .box {
+                width: 200px;
+                height: 200px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* تحسين استجابة العرض على الشاشات الأصغر من 650px */
+        @media (max-width: 650px) {
+            h1 {
+                font-size: 2rem; /* تصغير حجم العنوان */
+                margin-bottom: 30px;
+            }
+
             .box {
                 width: 180px;
                 height: 180px;
-                font-size: 1.2rem;
+                font-size: 1rem;
+            }
+
+            .container {
+                gap: 30px;
+            }
+        }
+
+        /* تحسين استجابة العرض على الشاشات الأصغر من 456px */
+        @media (max-width: 456px) {
+            h1 {
+                font-size: 1.8rem; /* تصغير حجم العنوان أكثر */
+                margin-bottom: 20px;
+            }
+
+            .box {
+                width: 160px;
+                height: 160px;
+                font-size: 0.9rem;
+            }
+
+            .container {
+                gap: 20px;
             }
         }
     </style>
