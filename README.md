@@ -29,7 +29,7 @@ A simple web project that displays the current week number and the current day n
 
 ---
 ## Preview
-![](02.jpg)
+![](Screenshot.png)
 ## Live Demo
 You can check out the live demo of the project [here](https://abdallah-mobarak.github.io/week-and-day-display/).
 
